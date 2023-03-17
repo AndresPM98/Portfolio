@@ -6,12 +6,18 @@
 }
 
 .navContainer{
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #0c2f39;
-    height: 10rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #0c2f39;
+  height: 5rem;
+  z-index: 9999; 
 }
+
 
 .homeCont {
   background-color: #1b6e85;
@@ -42,9 +48,8 @@
   background-color: #1b6e85;
   height: 100vh;
   display: flex;
-  align-items: center;
-  padding-bottom: 100px;
-  position: relative;
   flex-direction: column;
+  padding-bottom: 100px;
   justify-content: center;
+  align-items: center;
 }

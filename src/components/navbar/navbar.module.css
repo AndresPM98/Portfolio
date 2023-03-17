@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bottHome,
+.bottAbout,
+.bottSkills,
+.bottLabs,
+.bottContact{
+    background-color: transparent;
+    width: auto;
+    height: 3rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    border: none;
+    margin: 1rem;
+}
+
+.bottHome:hover,
+.bottAbout:hover,
+.bottSkills:hover,
+.bottLabs:hover,
+.bottContact:hover{
+    cursor: pointer;
+    color: #add8e6;
+    text-decoration: underline;
+}

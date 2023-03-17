@@ -5,7 +5,10 @@ const Navbar = () => {
     return(
         
         <div className={style.navbar}>
-            navbar
+            <button className={style.bottAbout}>About</button>
+            <button className={style.bottSkills}>Skills</button>
+            <button className={style.bottLabs}>Labs</button>
+            <button className={style.bottContact}>Contact</button>
         </div>
 
     )
