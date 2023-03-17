@@ -1,0 +1,50 @@
+.homeCont,
+.section2,
+.section3 {
+  width: 100%;
+  height: 100vh;
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0c2f39;
+    height: 10rem;
+}
+
+.homeCont {
+  background-color: #1b6e85;
+  height: 100vh;
+  min-height: 42.5rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  opacity: 0;
+  animation: aparecer 1s ease forwards;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section2 {
+  background-color: #add8e6;
+  height: 100vh;
+}
+.section3 {
+  background-color: #1b6e85;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-bottom: 100px;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+}

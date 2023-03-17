@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1b6e85;
+}
+
+.h1Landing, .pLanding, .imgLand, .line {
+  position: absolute;
+}
+
+.h1Landing {
+  color: #FFEFD6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  left: 61%;
+  top: 48%;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+}
+
+.pLanding {
+  color: #FFEFD6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  left: 38%;
+  top: 53%;
+  white-space: nowrap;
+}
+
+.imgLand{
+  left: 22%; 
+  top: 36%; 
+  transform: translate(-50%, -50%); 
+}
+
+.line{
+  top: 61%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%; 
+  border-bottom: 0.2rem solid white;
+}
