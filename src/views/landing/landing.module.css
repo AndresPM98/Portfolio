@@ -24,14 +24,14 @@
   color: #FFEFD6;
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
-  left: 38%;
+  left: 37%;
   top: 53%;
   white-space: nowrap;
 }
 
 .imgLand{
   left: 22%; 
-  top: 36%; 
+  top: 38%; 
   transform: translate(-50%, -50%); 
 }
 
@@ -40,7 +40,7 @@
   left: 50%;
   transform: translateX(-50%);
   width: 75%; 
-  border-bottom: 0.2rem solid white;
+  border-bottom: 0.2rem solid #FFEFD6;
 }
 .goPorfolio{
   background-color: transparent;
@@ -64,6 +64,6 @@
 
 .goPorfolio:hover{
   cursor: pointer;
-  background-color: #fcd6ff;
+  background-color: #FFEFD6;
   color: #ea3bd8;
 }
