@@ -44,7 +44,7 @@
 }
 .goPorfolio{
   background-color: transparent;
-  width: auto;
+  width: 10rem;
   height: 3rem;
   display: inline-flex;
   justify-content: center;
@@ -60,4 +60,10 @@
   margin: 1rem;
   margin-top: 20rem;
   margin-left: 60rem;
+}
+
+.goPorfolio:hover{
+  cursor: pointer;
+  background-color: #FFEFD6;
+  color: #1b6e85;
 }

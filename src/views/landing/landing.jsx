@@ -23,7 +23,7 @@ const Landing = () => {
         <div className={style.line}></div>
         <div>
           <button className={style.goPorfolio} onClick={goToPortfolio}>
-            Empezar ahora
+            Home
           </button>
         </div>
       </div>

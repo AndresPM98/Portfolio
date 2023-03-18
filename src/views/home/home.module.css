@@ -1,11 +1,12 @@
-.homeCont,
-.section2,
-.section3 {
+.aboutCont,
+.skillsCont,
+.labsCont,
+.contactCont {
   width: 100%;
   height: 100vh;
 }
 
-.navContainer{
+.navbarCont{
   position: fixed;
   top: 0;
   left: 0;
@@ -19,8 +20,8 @@
 }
 
 
-.homeCont {
-  background-color: #1b6e85;
+.aboutCont {
+  background-color: #add8e6;
   height: 100vh;
   min-height: 42.5rem;
   display: flex;
@@ -40,12 +41,28 @@
   }
 }
 
-.section2 {
+.skillsCont {
+  background-color: #1b6e85;
+  height: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.labsCont {
   background-color: #add8e6;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  justify-content: center;
+  align-items: center;
 }
-.section3 {
+.contactCont{
   background-color: #1b6e85;
+  height: 100vh;
   height: 100vh;
   display: flex;
   flex-direction: column;

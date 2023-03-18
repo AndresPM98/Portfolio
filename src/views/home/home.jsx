@@ -1,26 +1,29 @@
 import React from 'react';
-import Text from '../../components/text/text';
+import About from '../../components/about/about';
+import Contact from '../../components/contact/contact';
+import Labs from '../../components/labs/labs';
 import Navbar from '../../components/navbar/navbar';
+import Skills from '../../components/skills/skills';
 import style from "./home.module.css";
 
 
 const Home = () => {
   return (
     <div>
-      <div className={style.navContainer}>
+      <div className={style.navbarCont}>
         <Navbar/>
       </div>
-    <div className={style.homeCont}>
-      
-      <div className={style.textContainer}>
-        <div className={style.text}>
-          <Text/>
-        </div>
-      </div>
+    <div className={style.aboutCont}>
+      <About/>
     </div>
-    <div className={style.section2}>
+    <div className={style.skillsCont}>
+      <Skills/>
     </div>
-    <div className={style.section3}>
+    <div className={style.labsCont}>
+      <Labs/>
+    </div>
+    <div className={style.contactCont}>
+      <Contact/>
     </div>
   </div>
   );
