@@ -34,4 +34,18 @@
     cursor: pointer;
     color: #add8e6;
     text-decoration: underline;
+    transform: scale(1.1);
+    transform-origin: center;
+}
+
+.bottHome:focus,
+.bottAbout:focus,
+.bottSkills:focus,
+.bottLabs:focus,
+.bottContact:focus{
+    cursor: pointer;
+    color: #add8e6;
+    text-decoration: underline;
+    transform: scale(1.1);
+    transform-origin: center;
 }
