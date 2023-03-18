@@ -1,11 +1,3 @@
-.aboutCont,
-.skillsCont,
-.labsCont,
-.contactCont {
-  width: 100%;
-  height: 100vh;
-}
-
 .navbarCont{
   position: fixed;
   top: 0;
@@ -41,10 +33,15 @@
   }
 }
 
+.skillsCont,
+.labsCont,
+.contactCont {
+  width: 100%;
+  height: calc(100vh - 5rem);
+}
+
 .skillsCont {
   background-color: #1b6e85;
-  height: 100vh;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   padding-bottom: 100px;
@@ -53,7 +50,6 @@
 }
 .labsCont {
   background-color: #add8e6;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   padding-bottom: 100px;
@@ -62,8 +58,6 @@
 }
 .contactCont{
   background-color: #1b6e85;
-  height: 100vh;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   padding-bottom: 100px;
