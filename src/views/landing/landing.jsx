@@ -18,7 +18,7 @@ const Landing = () => {
         </div>
         <h1 className={style.h1Landing}>Andrés Pérez Merello - WebDev</h1>
         <p className={style.pLanding}>
-          JAVASCRIPT / HTML / CSS / REACT / REDUX / SQL / EXPRESS{" "}
+          JAVASCRIPT / HTML / CSS / REACT / REDUX / SQL / EXPRESS
         </p>
         <div className={style.line}></div>
         <div>
