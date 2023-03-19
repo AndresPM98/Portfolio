@@ -1,5 +1,12 @@
-.imgAbout{
+.imgAbout img {
+    height: 70vh;
+    margin: 0 auto;
+  }
+  
+  .imgAbout {
     display: flex;
-    margin-top: -29rem;
-    margin-left: 57rem;
-}
+    margin-top: -38rem;
+    margin-left: 45rem;
+    transform: scaleX(-1);
+  }
+  

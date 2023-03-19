@@ -21,7 +21,7 @@ const Landing = () => {
           JavaScript / HTML / CSS / React / Redux / PostgreSQL / Express / Node
         </p>
         <div className={style.line}></div>
-        <div className={style.bottonHome}>
+        <div className={style.botton}>
           <button className={style.goPorfolio} onClick={goToPortfolio}>
             Home
             <span class="material-symbols-outlined">

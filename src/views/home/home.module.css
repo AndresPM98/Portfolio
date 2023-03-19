@@ -12,10 +12,15 @@
   z-index: 9999; 
 }
 
-
+.aboutCont,
+.skillsCont,
+.labsCont,
+.contactCont {
+  width: 100%;
+  height: 100vh;
+}
 .aboutCont {
   background-color: #ccf2ff;
-  height: 100vh;
   min-height: 42.5rem;
   display: flex;
   align-items: center;
@@ -34,12 +39,6 @@
   }
 }
 
-.skillsCont,
-.labsCont,
-.contactCont {
-  width: 100%;
-  height: calc(100vh - 5rem);
-}
 
 .skillsCont {
   background-color: #1b6e85;
