@@ -1,8 +1,11 @@
 .text{
     font-family: 'Montserrat', sans-serif;
-    background-color: #0c2f39;
-    height: 25rem;
+    background-color: #1b6e85;
+    width: 75%;
+    height: 75vh;
     border-radius: 2rem;
+    padding: 1rem;
+    margin-left: 10rem;
 }
 .about{
     color: #FFEFD6;
@@ -12,8 +15,6 @@
 .pText{
     color: #FFEFD6;
     margin: 3%;
-    font-size: 1.5rem;
-}
-.section2{
-    background-color: aliceblue;
+    font-size: 1.4rem;
+    width: 50%;
 }

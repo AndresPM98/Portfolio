@@ -7,7 +7,7 @@ const Landing = () => {
   const history = useHistory();
 
   const goToPortfolio = () => {
-    history.push('/home');
+    history.push("/home");
   };
 
   return (
@@ -21,9 +21,12 @@ const Landing = () => {
           JavaScript / HTML / CSS / React / Redux / PostgreSQL / Express / Node
         </p>
         <div className={style.line}></div>
-        <div>
+        <div className={style.bottonHome}>
           <button className={style.goPorfolio} onClick={goToPortfolio}>
             Home
+            <span class="material-symbols-outlined">
+              keyboard_double_arrow_right
+            </span>
           </button>
         </div>
       </div>

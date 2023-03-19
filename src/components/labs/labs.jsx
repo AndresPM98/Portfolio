@@ -6,8 +6,7 @@ import style from "./labs.module.css"
 
 const Labs = () => {
   return (
-    <div >
-      <h1>Labs</h1>
+    <div className={style.contImg}>
       <div className={style.img1}>
       <img src={FlexAg} alt="FlexAg" />
       </div>
