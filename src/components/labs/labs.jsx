@@ -8,11 +8,11 @@ const Labs = () => {
   return (
     <div className={style.contImg}>
       <div className={style.img1}>
-      <img src={FlexAg} alt="FlexAg" />
+     {/*  <img src={FlexAg} alt="FlexAg" /> */}
       </div>
       <div className={style.img2}>
-      <img src={Country} alt="Country" />
-      </div>
+{/*       <img src={Country} alt="Country" />
+ */}      </div>
     </div>
   );
 };

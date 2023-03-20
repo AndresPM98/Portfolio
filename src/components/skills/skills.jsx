@@ -5,7 +5,7 @@ const Skills = () => {
   return (
 
       <div className={style.iconCont}>
-    
+        <div className={style.icons}>
         <a href="https://www.freepnglogos.com/pics/javascript" title="Image from freepnglogos.com"><img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-shield-logo-icon-2.png" height="150rem" alt="javascript shield logo icon" /></a>
        <img src="https://camo.githubusercontent.com/bfa71fe5e1eb3ca57a7e4ef9c6b2ca21414c4fdab27ac6861e211e7cfe8f7d9f/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f68746d6c352d6f726967696e616c2d776f72646d61726b2e737667" height="150rem" alt="HTML" />
        <img src="https://camo.githubusercontent.com/1f14c9c472b21cf8790a4fb6914be3a3181e957ecc2b397775f06a989d20cb37/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f637373332d6f726967696e616c2d776f72646d61726b2e737667" height="150rem" alt="CSS" />
@@ -16,7 +16,9 @@ const Skills = () => {
         <img src="https://camo.githubusercontent.com/db639beaeee1c24ed7979a95becbfb0e8067e8e0526d7ce3a74dcb488e6d41fc/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f6669676d612d69636f6e2e737667" height="140rem" alt="Figma" />
         <img src="https://camo.githubusercontent.com/4139e3f1661018381e0961baa746518f0e394103f0261c8b191474c6f7694a78/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f6a71756572792e706e67" height="150rem" alt="JQuery" />
         <img src="https://camo.githubusercontent.com/48c9507b62d83559dc3aef4f3951293b15ab2f5fa1029bdf6ec42f9fa062e775/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f6e6f64656a732d6f726967696e616c2d776f72646d61726b2e737667" height="150rem" alt="Node Js" />
-      
+        <img src="https://camo.githubusercontent.com/93acca6a99de2894799bf5e78396c83a682e46a4b1d98aa3127ae7b25c3754b6/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f657870726573732d6f726967696e616c2d776f72646d61726b2e737667" height="140rem" alt="Express" />
+        <img src="https://user-images.githubusercontent.com/90817926/188202176-50af9d9a-08cd-47fd-a71e-183a914ec23e.png" height="150rem" alt="SolidWorks" />
+        </div>
       </div>
   );
 };
