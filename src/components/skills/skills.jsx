@@ -6,7 +6,7 @@ const Skills = () => {
 
       <div className={style.iconCont}>
         <div className={style.icons}>
-        <a href="https://www.freepnglogos.com/pics/javascript" title="Image from freepnglogos.com"><img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-shield-logo-icon-2.png" height="150rem" alt="javascript shield logo icon" /></a>
+        <img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-shield-logo-icon-2.png" height="155rem" alt="javascript shield logo icon"/>
        <img src="https://camo.githubusercontent.com/bfa71fe5e1eb3ca57a7e4ef9c6b2ca21414c4fdab27ac6861e211e7cfe8f7d9f/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f68746d6c352d6f726967696e616c2d776f72646d61726b2e737667" height="150rem" alt="HTML" />
        <img src="https://camo.githubusercontent.com/1f14c9c472b21cf8790a4fb6914be3a3181e957ecc2b397775f06a989d20cb37/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f637373332d6f726967696e616c2d776f72646d61726b2e737667" height="150rem" alt="CSS" />
         <img src="https://camo.githubusercontent.com/518977ed5e52020624daf41cf644046368af610f19a7b1220dd1d58377d08288/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f72656163742d6f726967696e616c2d776f72646d61726b2e737667" height="150rem" alt="react" />
