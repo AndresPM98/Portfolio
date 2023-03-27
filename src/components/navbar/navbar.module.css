@@ -38,12 +38,9 @@
     transform-origin: center;
 }
 
-.bottHome:focus,
-.bottAbout:focus,
-.bottSkills:focus,
-.bottLabs:focus,
-.bottContact:focus{
-    cursor: pointer;
+
+
+.active {
     color: #ffffff;
     text-decoration: underline;
     transform: scale(1.1);

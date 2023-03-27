@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100%;
   background-color: #1b6e85;
 }
 
@@ -15,7 +16,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   left: 61%;
-  top: 48%;
+  top: 52%;
   white-space: nowrap;
   transform: translate(-50%, -50%);
 }
@@ -25,51 +26,20 @@
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   left: 37%;
-  top: 53%;
+  top: 57%;
   white-space: nowrap;
 }
 
 .imgLand{
   left: 22%; 
-  top: 38%; 
+  top: 42%; 
   transform: translate(-50%, -50%); 
 }
 
 .line{
-  top: 61%;
+  top: 65%;
   left: 50%;
   transform: translateX(-50%);
   width: 75%; 
   border-bottom: 0.2rem solid #FFEFD6;
-}
-
-.bottonHome{
-  display: flex;
-    align-items: center;
-}
-
-.goPorfolio{
-  background-color: transparent;
-  width: 10rem;
-  height: 3rem;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  color: #FFEFD6;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 2rem;
-  border: 3px solid #FFEFD6;
-  border-radius: 1.5rem;
-  border-color: FFEFD6;
-  margin: 1rem;
-  margin-top: 20rem;
-  margin-left: 71.5rem;
-}
-
-.goPorfolio:hover{
-  cursor: pointer;
-  background-color: #FFEFD6;
-  color: #ea3bd8;
 }

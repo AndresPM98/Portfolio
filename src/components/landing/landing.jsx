@@ -1,15 +1,9 @@
 import React from "react";
 import style from "./landing.module.css";
 import imgLanding from "../../img/imgLanding.png";
-import { useHistory } from "react-router-dom";
 
 const Landing = () => {
-  const history = useHistory();
-
-  const goToPortfolio = () => {
-    history.push("/home");
-  };
-
+ 
   return (
     <>
       <div className={style.container}>
@@ -21,14 +15,6 @@ const Landing = () => {
           JavaScript / HTML / CSS / React / Redux / PostgreSQL / Express / Node
         </p>
         <div className={style.line}></div>
-        <div className={style.botton}>
-          <button className={style.goPorfolio} onClick={goToPortfolio}>
-            Home
-            <span class="material-symbols-outlined">
-              keyboard_double_arrow_right
-            </span>
-          </button>
-        </div>
       </div>
     </>
   );
