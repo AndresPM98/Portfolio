@@ -12,7 +12,7 @@ const Landing = () => {
         </div>
         <h1 className={style.h1Landing}>Andrés Pérez Merello - WebDev</h1>
         <p className={style.pLanding}>
-          JavaScript / HTML / CSS / React / Redux / PostgreSQL / Express / Node
+          JavaScript / HTML / CSS / React / Redux / PostgreSQL / Express / Node 
         </p>
         <div className={style.line}></div>
       </div>

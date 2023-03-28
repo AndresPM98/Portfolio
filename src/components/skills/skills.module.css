@@ -8,5 +8,17 @@
 }
 
 .icons{    
-    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+}
+.front{
+    margin-top: 1rem;
+}
+.back{
+    margin-top: 3rem;
+}
+.otros{
+    margin-top: 3rem;
 }
