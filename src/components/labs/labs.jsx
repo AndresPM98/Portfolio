@@ -1,18 +1,18 @@
 import React from "react";
 import FlexAg from "../../img/FlexAg.png";
-import Country from "../../img/Country.png"
-import style from "./labs.module.css"
-
+import Henry from "../../img/henryLogo.png";
+import style from "./labs.module.css";
 
 const Labs = () => {
   return (
     <div className={style.contImg}>
-      <div className={style.img1}>
-     {/*  <img src={FlexAg} alt="FlexAg" /> */}
+      <div class={style.book}>
+      <p>Hover Me</p>
+        <div class={style.cover}>
+          
+          <img src={Henry} alt="Henry" className={style.imgHenry}/>
+        </div>
       </div>
-      <div className={style.img2}>
-{/*       <img src={Country} alt="Country" />
- */}      </div>
     </div>
   );
 };
