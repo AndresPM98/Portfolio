@@ -1,12 +1,31 @@
-.imgAbout img {
-    height: 65vh;
-    margin: 0 auto;
-  }
-  
-  .imgAbout {
-    display: flex;
-    margin-top: -35.5rem;
-    margin-left: 45rem;
-    transform: scaleX(-1);
-  }
-  
+.recuadro {
+  position: absolute;
+  top: 27.5%;
+  left: 60%;
+  border: 1rem solid #FFEFD6;
+  border-radius: 2rem;
+  box-sizing: border-box;
+  height: 45%;
+  width: 25%;
+  z-index: 0;
+  background-color: #add8e6;
+}
+.recuadro2 {
+  position: absolute;
+  top: 29%;
+  left: 60.7%;
+  border: 1rem solid #8aabb7;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  height: 42%;
+  width: 23.5%;
+  z-index: 0;
+  background-color: #add8e6;
+}
+
+.imgYo {
+  margin-top: -31%;
+  margin-left: 55%;
+  position: relative;
+  z-index: 1;
+}

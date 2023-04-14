@@ -33,7 +33,8 @@
 .imgLand{
   left: 22%; 
   top: 42%; 
-  transform: translate(-50%, -50%); 
+  margin-top: -12%;
+  margin-left: -16%;
 }
 
 .line{
