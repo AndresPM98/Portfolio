@@ -1,5 +1,4 @@
 import React from "react";
-import FlexAg from "../../img/FlexAg.png";
 import Henry from "../../img/henryLogo.png";
 import Pato from "../../img/PATOimg.png"
 import style from "./labs.module.css";
