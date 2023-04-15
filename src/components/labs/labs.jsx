@@ -6,12 +6,46 @@ import style from "./labs.module.css";
 const Labs = () => {
   return (
     <div className={style.contImg}>
-      <div class={style.book}>
-      <p>Hover Me</p>
-        <div class={style.cover}>
-          
-          <img src={Henry} alt="Henry" className={style.imgHenry}/>
+      <div className={style.cards}>
+
+      <div class={style.card}>
+        <div class={style.image}>
+          <img src={Henry} alt="Henry" />
         </div>
+        <div class={style.card_description}>
+          <p class={style.text_title}> Proyecto Individual</p>
+          <p class={style.text_body}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor.
+          </p>
+        </div>
+      </div>
+
+      <div class={style.card}>
+        <div class={style.image}>
+          <img src={Henry} alt="Henry" />
+        </div>
+        <div class={style.card_description}>
+          <p class={style.text_title}> Proyecto Grupal</p>
+          <p class={style.text_body}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor.
+          </p>
+        </div>
+      </div>
+
+      <div class={style.card}>
+        <div class={style.image}>
+          <img src={Henry} alt="Henry" />
+        </div>
+        <div class={style.card_description}>
+          <p class={style.text_title}> Proyecto Freelacer</p>
+          <p class={style.text_body}>
+          PATO Estimulación Temprana Centro de Estimulación Temprana
+          </p>
+        </div>
+      </div>
+
       </div>
     </div>
   );
