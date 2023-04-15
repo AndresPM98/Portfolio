@@ -5,27 +5,34 @@
   border: 1rem solid #FFEFD6;
   border-radius: 2rem;
   box-sizing: border-box;
-  height: 45%;
-  width: 25%;
+  height: 27rem;
+  width: 27rem;
   z-index: 0;
   background-color: #add8e6;
 }
 .recuadro2 {
   position: absolute;
-  top: 29%;
-  left: 60.7%;
-  border: 1rem solid #8aabb7;
-  border-radius: 1.5rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1rem solid #FFEFD6;
+  border-radius: 1rem;
   box-sizing: border-box;
-  height: 42%;
-  width: 23.5%;
+  height: 23rem;
+  width: 23rem;
   z-index: 0;
   background-color: #add8e6;
 }
 
+
 .imgYo {
-  margin-top: -31%;
-  margin-left: 55%;
   position: relative;
   z-index: 1;
+}
+
+.imgYo img {
+  height: 45rem;
+  display: block;
+  margin-top: -8rem;
+  margin-left: -2.5rem;
 }
