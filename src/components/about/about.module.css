@@ -33,7 +33,7 @@
   position: relative;
   border-width: 0;
   color: white;
-  background-color: #242a35;
+  background-color: #152747;
   border: solid 3px white;
   font-size: 15px;
   font-weight: 600;
@@ -50,7 +50,7 @@
   padding: 0 10px;
   border-radius: 4px;
   z-index: 1;
-  background-color: #242a35;
+  background-color: #152747;
   transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
 

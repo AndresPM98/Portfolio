@@ -31,6 +31,7 @@
   justify-content: center;
   align-items: stretch;
 }
+
 .imagePato {
   display: flex;
   width: 100%;
@@ -47,25 +48,29 @@
   position: absolute;
   gap: .5em;
   flex-direction: column;
-  background-color: #dcdcdc;
-  color: #212121;
-  height: 70%;
+  background-color: #152747f6;
+  color: #ffffff;
+  height: 90%;
   bottom: 0;
   border-radius: 16px;
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   padding: 1rem;
-  transform: translateY(75%);
+  transform: translateY(80%);
 }
 
 /*Text*/
 .text_title {
+  position: relative;
+  text-align: center;
   font-size: 1.3rem;
   font-weight: 700;
   margin-top: 0rem;
 }
 
 .text_body {
-  font-size: 1rem;
+  position: relative;
+  text-align: center;
+  font-size: 1.3rem;
   line-height: 130%;
 }
 
@@ -74,7 +79,10 @@
 .card:hover .card_description {
   transform: translateY(0);
 }
-
+.card:hover .text_title{
+  font-size: 2rem;
+  transition: 0.6s;
+}
 
 
 
