@@ -6,12 +6,11 @@ import style from "./about.module.css";
 const About = () => {
   return (
     <div>
-      <Text/>
+      <Text />
+
       <div className={style.recuadro}>
-        <div className={style.recuadro2}>
-          <div className={style.imgYo}>
-            <img src={Yo} alt="Yo" />
-          </div>
+        <div className={style.imgYo}>
+          <img src={Yo} alt="Yo" />
         </div>
       </div>
     </div>

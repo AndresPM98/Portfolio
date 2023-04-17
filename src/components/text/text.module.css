@@ -2,15 +2,17 @@
     font-family: 'Montserrat', sans-serif;
     background-color: #1b6e85;
     width: 85%;
-    height: 65vh;
+    height:70vh;
     border-radius: 2rem;
     padding: 2rem;
     margin: auto;
+    margin-top: 4%;
 }
 .about{
     color: #ffffff;
     font-size: 2.5rem;
     margin: auto;
+    margin-top: 2rem;
     margin-left: 2rem;
 }
 .pText{

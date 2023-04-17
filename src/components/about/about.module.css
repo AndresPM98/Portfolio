@@ -1,25 +1,13 @@
 .recuadro {
   position: absolute;
-  top: 17.5%;
-  left: 65%;
-  border: 1rem solid #FFEFD6;
-  border-radius: 2rem;
-  box-sizing: border-box;
-  height: 35rem;
-  width: 27rem;
-  z-index: 0;
-  background-color: #afafaf;
-}
-.recuadro2 {
-  position: absolute;
-  top: 40%;
-  left: 50%;
+  top: 45%;
+  left: 77%;
   transform: translate(-50%, -50%);
   border: 1rem solid #FFEFD6;
   border-radius: 1.5rem;
   box-sizing: border-box;
   height: 23rem;
-  width: 23rem;
+  width: 27rem;
   z-index: 0;
   background-color: #add8e6;
 }
@@ -34,5 +22,5 @@
   height: 41rem;
   display: block;
   margin-top: -5.7rem;
-  margin-left: -3rem;
+  margin-left: -1rem;
 }
