@@ -9,60 +9,51 @@
   background-color: #0000003a;
   border-bottom: 0.2rem solid white;
   height: 5rem;
-  z-index: 9999; 
-}
-
-.aboutCont,
-.skillsCont,
-.contactCont {
+  z-index: 9999;
+  }
+  
+  .aboutCont,
+  .skillsCont,
+  .contactCont {
   width: 100%;
   height: 100vh;
-}
-.labsCont{
+  }
+  
+  .labsCont{
   width: 100%;
   height: auto;
-}
-
-.aboutCont {
+  }
+  
+  .aboutCont {
   background-color: #ccf2ff;
   min-height: 42.5rem;
   display: flex;
   align-items: center;
   position: relative;
-  opacity: 0;
-  animation: aparecer 1s ease forwards;
-}
-@keyframes aparecer {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
+  opacity: 1;
   }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-
-.skillsCont {
+  
+  .skillsCont {
   background-color: #1b6e85;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.labsCont {
+  }
+  
+  .labsCont {
   background-color: #add8e6;
   display: flex;
   flex-direction: column;
   padding-bottom: 100px;
   justify-content: center;
   align-items: center;
-}
-.contactCont{
+  }
+  
+  .contactCont{
   background-color: #1b6e85;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+  }
