@@ -23,3 +23,6 @@
 .otros{
     margin-top: 3rem;
 }
+.icons img:hover {
+    transform: scale(1.2);
+  }
