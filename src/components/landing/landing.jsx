@@ -12,7 +12,6 @@ const Landing = () => {
       <div className={style.container}>
         <div className={style.imgLanding}>
           <img className={style.imgLand} src={imgLanding} alt="Imagen" />
-          <div className={style.line}></div>
         </div>
         <h1 className={style.h1Landing}>Andrés Pérez Merello - WebDev</h1>
         <p className={style.pLanding}>

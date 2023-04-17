@@ -16,7 +16,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   left: 61%;
-  top: 52%;
+  top: 54%;
   white-space: nowrap;
   transform: translate(-50%, -50%);
 }
@@ -26,21 +26,21 @@
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   left: 37%;
-  top: 57%;
+  top: 59%;
   white-space: nowrap;
 }
-
-.imgLand{
-  left: 22%; 
-  top: 42%; 
-  margin-top: -12%;
-  margin-left: -16%;
-}
-
-.line{
-  top: 65%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 75%; 
+.imgLanding {
+  height: 36vh;
+  width: 80%;
   border-bottom: 0.2rem solid #FFEFD6;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }
+
+.imgLand {
+  height: 47vh;
+  margin-top: -11vh;
+  margin-left: -5rem;
+}
+
+ 
