@@ -17,7 +17,7 @@
   background-color: white;
   position: relative;
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  border-radius: 16px;
+  border-radius: 2rem;
   overflow: hidden;
 }
 
@@ -48,14 +48,14 @@
   position: absolute;
   gap: .5em;
   flex-direction: column;
-  background-color: #152747f6;
-  color: #ffffff;
+  background-color: #9f9f9fee;
+  color: #000000;
   height: 90%;
   bottom: 0;
-  border-radius: 16px;
+  border-radius: 5rem 5rem 0rem 0rem;
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   padding: 1rem;
-  transform: translateY(80%);
+  transform: translateY(83%);
 }
 
 /*Text*/
@@ -78,6 +78,7 @@
 /* Hover states */
 .card:hover .card_description {
   transform: translateY(0);
+  border-radius: 2rem 2rem 0rem 0rem;
 }
 .card:hover .text_title{
   font-size: 2rem;
