@@ -25,7 +25,7 @@
   }
   
   .aboutCont {
-  background-color: #ccf2ff;
+  background-color: #1E2847;
   min-height: 42.5rem;
   display: flex;
   align-items: center;
@@ -34,7 +34,7 @@
   }
   
   .skillsCont {
-  background-color: #1b6e85;
+    background: linear-gradient(to bottom, #1E2847, #000000, #1E2847);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,7 +42,7 @@
   }
   
   .labsCont {
-  background-color: #add8e6;
+    background-color: #1E2847;
   display: flex;
   flex-direction: column;
   padding-bottom: 100px;
@@ -51,7 +51,7 @@
   }
   
   .contactCont{
-  background-color: #1b6e85;
+  background: linear-gradient(to bottom, #1E2847, #000000, #1E2847);
   display: flex;
   flex-direction: column;
   justify-content: center;

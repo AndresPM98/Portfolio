@@ -4,7 +4,8 @@
   align-items: center;
   height: 100vh;
   width: 100%;
-  background-color: #1b6e85;
+  background: linear-gradient(to bottom, #1E2847, #000000, #1E2847);
+
 }
 
 .h1Landing, .pLanding, .imgLand, .line {
