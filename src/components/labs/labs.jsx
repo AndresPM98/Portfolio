@@ -39,7 +39,7 @@ const Labs = () => {
           <img src={Pato} alt="Pato" />
         </div>
         <div class={style.card_description}>
-          <p class={style.text_title}> Proyecto Freelacer</p>
+          <p class={style.text_title}> Proyecto Freelancer</p>
           <p class={style.text_body}>
           PATO Estimulación Temprana Centro de Estimulación Temprana
           </p>

@@ -15,13 +15,17 @@
     margin-left: 2rem;
 }
 .front{
-    margin-top: 1rem;
+   
+    padding: 1.5rem;
+    border-bottom: 0.01rem solid white;
 }
 .back{
-    margin-top: 3rem;
+    
+    padding: 1.5rem;
+    border-bottom: 0.01rem solid white;
 }
 .otros{
-    margin-top: 3rem;
+    padding: 1.5rem;
 }
 .icons img:hover {
     transform: scale(1.2);

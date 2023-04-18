@@ -12,8 +12,8 @@ const Home = () => {
 
   const landingRef= useRef(null)
   const aboutRef = useRef(null);
-  const skillsRef = useRef(null);
   const labsRef = useRef(null);
+  const skillsRef = useRef(null);
   const contactRef = useRef(null);
 
   const scrollToSection = (ref) => {
@@ -26,8 +26,8 @@ const Home = () => {
         <Navbar
           landingRef={landingRef}
           aboutRef={aboutRef}
-          skillsRef={skillsRef}
           labsRef={labsRef}
+          skillsRef={skillsRef}
           contactRef={contactRef}
           scrollToSection={scrollToSection}
         />
@@ -38,11 +38,11 @@ const Home = () => {
       <div className={style.aboutCont} ref={aboutRef}>
         <About />
       </div>
-      <div className={style.skillsCont} ref={skillsRef}>
-        <Skills />
-      </div>
       <div className={style.labsCont} ref={labsRef}>
         <Labs />
+      </div>
+      <div className={style.skillsCont} ref={skillsRef}>
+        <Skills />
       </div>
       <div className={style.contactCont} ref={contactRef}>
         <Contact />

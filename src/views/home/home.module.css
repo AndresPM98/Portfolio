@@ -1,59 +1,59 @@
-.navbarCont{
+.navbarCont {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   display: flex;
   justify-content: space-between;
-  font-family: 'Montserrat', sans-serif;
-  background-color: #0000003a;
-  border-bottom: 0.2rem solid white;
+  font-family: "Montserrat", sans-serif;
+  background-color: #00000055;
+  border-bottom: 0.01rem solid white;
   height: 5rem;
   z-index: 9999;
-  }
-  
-  .aboutCont,
-  .skillsCont,
-  .contactCont {
+}
+
+.aboutCont,
+.skillsCont,
+.contactCont {
   width: 100%;
   height: 100vh;
-  }
-  
-  .labsCont{
+}
+
+.labsCont {
   width: 100%;
   height: auto;
-  }
-  
-  .aboutCont {
-  background-color: #1E2847;
+}
+
+.aboutCont {
+  background-color: #1e2847;
   min-height: 42.5rem;
   display: flex;
   align-items: center;
   position: relative;
   opacity: 1;
-  }
-  
-  .skillsCont {
-    background: linear-gradient(to bottom, #1E2847, #000000, #1E2847);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  }
-  
-  .labsCont {
-    background-color: #1E2847;
+}
+
+.labsCont {
+  background: linear-gradient(to bottom, #1e2847, #000000, #1e2847);
   display: flex;
   flex-direction: column;
   padding-bottom: 100px;
   justify-content: center;
   align-items: center;
-  }
-  
-  .contactCont{
-  background: linear-gradient(to bottom, #1E2847, #000000, #1E2847);
+}
+
+.skillsCont {
+  background-color: #1e2847;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  }
+}
+
+.contactCont {
+  background: linear-gradient(to bottom, #1e2847, #000000, #1e2847);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

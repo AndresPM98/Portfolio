@@ -10,8 +10,8 @@ const Navbar = ({ landingRef, aboutRef, skillsRef, labsRef, contactRef, scrollTo
       const sections = [
         { id: 'landing', ref: landingRef },
         { id: 'about', ref: aboutRef },
-        { id: 'skills', ref: skillsRef },
         { id: 'labs', ref: labsRef },
+        { id: 'skills', ref: skillsRef },
         { id: 'contact', ref: contactRef },
       ];
       const positions = sections.map(({ id, ref }) => ({
@@ -45,11 +45,11 @@ const Navbar = ({ landingRef, aboutRef, skillsRef, labsRef, contactRef, scrollTo
       <button className={`${style.bottAbout} ${currentSection === 'about' ? style.active : ''}`} onClick={() => scrollToSection(aboutRef)}>
         About
       </button>
-      <button className={`${style.bottSkills} ${currentSection === 'skills' ? style.active : ''}`} onClick={() => scrollToSection(skillsRef)}>
-        Skills
-      </button>
       <button className={`${style.bottLabs} ${currentSection === 'labs' ? style.active : ''}`} onClick={() => scrollToSection(labsRef)}>
         Labs
+      </button>
+      <button className={`${style.bottSkills} ${currentSection === 'skills' ? style.active : ''}`} onClick={() => scrollToSection(skillsRef)}>
+        Skills
       </button>
       <button className={`${style.bottContact} ${currentSection === 'contact' ? style.active : ''}`} onClick={() => scrollToSection(contactRef)}>
         Contact
