@@ -13,7 +13,7 @@
 .card {
   margin: 1rem;
   height: 20rem;
-  width: 25rem;
+  width: 40rem;
   background-color: white;
   position: relative;
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -26,6 +26,24 @@
   display: flex;
   width: 100%;
   height: auto;
+  object-fit: cover;
+  object-position: center;
+  justify-content: center;
+  align-items: stretch;
+}
+.imageNext {
+  display: flex;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  object-position: center;
+  justify-content: center;
+  align-items: stretch;
+}
+.imagePf {
+  display: flex;
+  height: 20.5rem;
+  width: 100%;
   object-fit: cover;
   object-position: center;
   justify-content: center;
@@ -55,7 +73,7 @@
   border-radius: 5rem 5rem 0rem 0rem;
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   padding: 1rem;
-  transform: translateY(83%);
+  transform: translateY(84%);
 }
 
 /*Text*/
@@ -70,9 +88,10 @@
 .text_body {
   position: relative;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 500;
   line-height: 130%;
+  margin-top: -1.3rem;
 }
 
 
@@ -85,8 +104,6 @@
   font-size: 2.3rem;
   transition: 0.6s;
 }
-
-
 
 
 
