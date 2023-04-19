@@ -58,6 +58,12 @@ const Labs = () => {
           <div class={style.imageNext}>
             <img src={Next} alt="Next" />
           </div>
+          <div class={style.card_description}>
+            <p class={style.text_title}>Próximamente</p>
+            <p class={style.text_body}>
+             ..........
+            </p>
+          </div>
         </div>
        
       </div>
