@@ -1,12 +1,13 @@
 .recuadro {
   position: absolute;
-  top: 45%;
+  top: 47%;
   left: 77%;
   transform: translate(-50%, -50%);
-  border: 1rem solid #ffefd6;
+  border: 1rem solid #1e2847;
+  border-bottom: 3rem solid  #4a567a;
   border-radius: 1.5rem;
   box-sizing: border-box;
-  height: 23rem;
+  height: 25rem;
   width: 27rem;
   z-index: 0;
   background-color: #b7b7b7; 
@@ -17,6 +18,7 @@
   z-index: 1;
 }
 
+
 .imgYo img {
   height: 41rem;
   display: block;
@@ -25,7 +27,7 @@
 }
 
 .button {
-  margin-top: -23%;
+  margin-top: -20%;
   margin-left: 30%;
 }
 
@@ -34,7 +36,7 @@
   border-width: 0;
   color: white;
   background-color: #152747;
-  border: solid 3px white;
+   border: solid 3px white; 
   font-size: 15px;
   font-weight: 600;
   border-radius: 6px;
@@ -52,6 +54,7 @@
   z-index: 1;
   background-color: #152747;
   transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+
 }
 
 .download_button:hover {

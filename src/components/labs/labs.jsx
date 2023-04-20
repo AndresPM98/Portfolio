@@ -60,6 +60,9 @@ const Labs = () => {
         </div>
 
         <div class={style.card}>
+          <div class={style.imagePato2}>
+            <img src={Pato} alt="Henry" />
+          </div>
           <div class={style.imagePato}>
             <img src={Pato} alt="Henry" />
           </div>
