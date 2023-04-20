@@ -61,6 +61,13 @@
   align-items: stretch;
 }
 
+.tech{
+  margin-top: 1rem;
+}
+.icons{
+  margin-top: 1rem;
+}
+
 
 /*Description */
 .card_description {
@@ -77,6 +84,7 @@
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   padding: 1rem;
   transform: translateY(84%);
+  overflow-y: scroll;
 }
 
 /*Text*/
