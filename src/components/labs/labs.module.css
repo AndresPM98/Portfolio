@@ -72,10 +72,15 @@
 } 
 
 .tech{
+  display: flex;
   margin-top: 1rem;
+  flex-direction: column;
+  align-items: center
 }
 .icons{
+  display: flex;
   margin-top: 1rem;
+  justify-content: space-around
 }
 
 

@@ -4,8 +4,6 @@ import Pato from "../../img/PATOimg.png";
 import style from "./labs.module.css";
 import Pf from "../../img/PF1.png";
 import Next from "../../img/gifProgramacion.gif";
-import ReactPng from "../../img/React.png";
-import PostgreSQL from "../../img/PostgreSQL.png";
 import Tech from "../tech/tech";
 
 const Labs = () => {
@@ -47,8 +45,8 @@ const Labs = () => {
               turnos, una agenda para gestionar las citas, inicio de sesión y
               registro de usuario, envío de correos electrónicos de confirmación
               y autenticación de terceros para mejorar la seguridad. Tecnologías
-              utilizadas: React, Redux, CSS, Bootstrap, librerías. Node Js,
-              Express. PostgreSQL, Firebase.
+              utilizadas:<strong> React, Redux, CSS, Bootstrap, librerías. Node Js,
+              Express. PostgreSQL, Firebase.</strong>
             </p>
             <div className={style.tech}>
                 <strong>PRINCIPALES TECNOLOGIAS:</strong>
