@@ -6,7 +6,6 @@
   height: 100vh;
   width: 100%;
   background: linear-gradient(to bottom, #1E2847, #000000, #1E2847);
-
 }
 
 .h1Landing, .pLanding, .imgLand, .line {
@@ -83,17 +82,21 @@
   }
   
   .imgLanding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 28vh;
-    width: 23rem;
-    border-bottom: 0.2rem solid #FFEFD6;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    width: 15rem;
+    
   }
   
   .imgLand {
     height: 37vh;
     margin-top: -9vh;
     margin-left: -3rem;
+    border-bottom: 0.2rem solid #FFEFD6;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
   }
 }
 
@@ -133,10 +136,7 @@
   }
   
   .imgLanding {
-    max-width: 30rem;
-    border-bottom: 0.2rem solid #FFEFD6;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    max-width: 15rem;
   }
   
   .imgLand {
@@ -147,15 +147,14 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh; /* Cambiar "height" por "min-height" */
     width: 100%;
     background: linear-gradient(to bottom, #1E2847, #000000, #1E2847);
-  
   }
   .h1Landing, .pLanding, .imgLand, .line {
     position: absolute;
@@ -182,17 +181,15 @@
   }
   
   .imgLanding {
-    max-width: 20rem;
+    max-width: 18rem;
     height: 10rem;
-    border-bottom: 0.2rem solid #FFEFD6;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
   }
   
   .imgLand {
-    max-height: 27.5vh;
+    max-height: 27.4vh;
+    width: auto;
     margin-top: -9vh;
-    margin-left:-1rem;
+    margin-left: -3rem;
   }
 }
 
