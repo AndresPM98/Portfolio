@@ -1,8 +1,10 @@
+@media only screen and (min-width: 1400px) {
 .text{
     font-family: 'Montserrat', sans-serif;
     background-color: #6D7F99;
     width: 85%;
-    height:70vh;
+    min-height:70vh;
+    max-height: auto;
     border-radius: 2rem;
     padding: 2rem;
     margin: auto;
@@ -21,4 +23,83 @@
     width: 60%;
     margin-left: 2rem;
     margin-top: auto;
+}
+}
+
+@media only screen and (max-width: 1400px) {
+    .text{
+        font-family: 'Montserrat', sans-serif;
+        background-color: #6D7F99;
+        width: 90%;
+        min-height:70vh;
+        max-height: auto;
+        border-radius: 2rem;
+        padding: 2rem;
+        margin: auto;
+        margin-top: 5%;
+    }
+    .about{
+        color: #ffffff;
+        font-size: 2.1rem;
+        margin: auto;
+        margin-left: 2rem;
+    }
+    .pText{
+        color: #ffffff;
+        font-size: 1.2rem;
+        width: 50%;
+        margin-left: 2rem;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .text{
+        font-family: 'Montserrat', sans-serif;
+        background-color: #6D7F99;
+        width: 90%;
+        min-height:60vh;
+        max-height: auto;
+        border-radius: 2rem;
+        padding: 2rem;
+        margin: auto;
+        margin-top: 10%;
+    }
+    .about{
+        color: #ffffff;
+        font-size: 2.5rem;
+        margin: auto;
+        margin-left: 2rem;
+    }
+    .pText{
+        color: #ffffff;
+        font-size: 1rem;
+        width: 95%;
+        margin-left: 2rem;
+        margin-top: 3rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .text{
+        font-family: 'Montserrat', sans-serif;
+        background-color: #6D7F99;
+        width: 90%;
+        min-height:80vh;
+        max-height: auto;
+        border-radius: 2rem;
+        padding: 2rem;
+        margin: auto;
+        margin-top: 10%;
+    }
+    .about{
+        color: #ffffff;
+        font-size: 2.5rem;
+        margin: auto;
+        margin-left: 2rem;
+    }
+    .pText{
+        color: #ffffff;
+        font-size: 1rem;
+        width: 95%;
+        margin-left: 2rem;
+        margin-top: 3rem;
+    }
 }

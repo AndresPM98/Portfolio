@@ -1,3 +1,4 @@
+@media only screen and (min-width: 1400px) {
 .recuadro {
   position: absolute;
   top: 47%;
@@ -102,4 +103,321 @@
   100% {
     transform: translateY(0%);
   }
+}
+}
+
+@media only screen and (max-width: 1400px) {
+  .recuadro {
+    position: absolute;
+    top: 50%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    border: 1rem solid #1e2847;
+    border-bottom: 3rem solid  #4a567a;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    height: 20rem;
+    width: 22rem;
+    z-index: 0;
+    background-color: #b7b7b7; 
+  }
+  
+  .imgYo {
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  .imgYo img {
+    height: 33.5rem;
+    display: block;
+    margin-top: -5.7rem;
+    margin-left: -1rem;
+  }
+  
+  .button {
+    margin-top: -20%;
+    margin-left: 25%;
+  }
+
+.download_button {
+  position: relative;
+  border-width: 0;
+  color: white;
+  background-color: #152747;
+   border: solid 3px white; 
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 6px;
+  z-index: 1;
+}
+
+.download_button .docs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 40px;
+  padding: 0 10px;
+  border-radius: 4px;
+  z-index: 1;
+  background-color: #152747;
+  transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+
+}
+
+.download_button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.download {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  max-height: 85%;
+  margin: 0 auto;
+  margin-top: 1.5px;
+  z-index: -1;
+  border-radius: 6px;
+  transform: translateY(0%);
+  background-color: #01e056;
+  border: solid 1px #01e0572d;
+  transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.download_button:hover .download {
+  transform: translateY(100%);
+}
+
+.download svg polyline,
+.download svg line {
+  animation: docs 1s infinite;
+}
+
+@keyframes docs {
+  0% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(-15%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+}
+
+@media only screen and (max-width: 1000px) {
+  .recuadro {
+    position: absolute;
+    margin-top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border: 1rem solid #1e284700;
+    border-bottom: 3rem solid  #4a567a00;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 0;
+    background-color: #b7b7b700; 
+  }
+  
+  .imgYo {
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  .imgYo img {
+    opacity: 0;
+  }
+  
+  .button {
+    margin-top: -20%;
+    margin-left: 30%;
+  }
+
+.download_button {
+  position: relative;
+  border-width: 0;
+  color: white;
+  background-color: #152747;
+   border: solid 3px white; 
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 6px;
+  z-index: 1;
+}
+
+.download_button .docs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 40px;
+  padding: 0 10px;
+  border-radius: 4px;
+  z-index: 1;
+  background-color: #152747;
+  transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+
+}
+
+.download_button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.download {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  max-height: 85%;
+  margin: 0 auto;
+  margin-top: 1.5px;
+  z-index: -1;
+  border-radius: 6px;
+  transform: translateY(0%);
+  background-color: #01e056;
+  border: solid 1px #01e0572d;
+  transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.download_button:hover .download {
+  transform: translateY(100%);
+}
+
+.download svg polyline,
+.download svg line {
+  animation: docs 1s infinite;
+}
+
+@keyframes docs {
+  0% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(-15%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .recuadro {
+    position: absolute;
+    margin-top: 25%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border: 1rem solid #1e284700;
+    border-bottom: 3rem solid  #4a567a00;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 0;
+    background-color: #b7b7b700; 
+  }
+  
+  .imgYo {
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  .imgYo img {
+    opacity: 0;
+  }
+  
+  .button {
+    margin-top: -20%;
+    margin-left: 30%;
+  }
+
+.download_button {
+  position: relative;
+  border-width: 0;
+  color: white;
+  background-color: #152747;
+   border: solid 3px white; 
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 6px;
+  z-index: 1;
+}
+
+.download_button .docs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 40px;
+  padding: 0 10px;
+  border-radius: 4px;
+  z-index: 1;
+  background-color: #152747;
+  transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+
+}
+
+.download_button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.download {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  max-height: 85%;
+  margin: 0 auto;
+  margin-top: 1.5px;
+  z-index: -1;
+  border-radius: 6px;
+  transform: translateY(0%);
+  background-color: #01e056;
+  border: solid 1px #01e0572d;
+  transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.download_button:hover .download {
+  transform: translateY(100%);
+}
+
+.download svg polyline,
+.download svg line {
+  animation: docs 1s infinite;
+}
+
+@keyframes docs {
+  0% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(-15%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
 }
