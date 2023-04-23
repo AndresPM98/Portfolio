@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import style from './navbar.module.css';
 
 const Navbar = ({ landingRef, aboutRef, skillsRef, labsRef, contactRef, scrollToSection }) => {
@@ -36,7 +36,7 @@ const Navbar = ({ landingRef, aboutRef, skillsRef, labsRef, contactRef, scrollTo
     window.addEventListener('scroll', handleScroll);
   
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [aboutRef, contactRef, labsRef, landingRef, skillsRef]);
   return (
     <div className={style.navbar}>
       <button className={`${style.bottHome} ${currentSection === 'landing' ? style.active : ''}`} onClick={() => scrollToSection(landingRef)}>

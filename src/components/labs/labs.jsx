@@ -7,10 +7,9 @@ import Next from "../../img/gifProgramacion.gif";
 import Tech from "../tech/tech";
 import githube from "../../img/github.png";
 import githube2 from "../../img/github3.png";
-import deploy from "../../img/deploy.png"
 import deploy2 from "../../img/deploy2.png"
-import codigo from "../../img/codigo.png";
 import enlace from "../../img/enlace.png"
+
 
 const Labs = () => {
   return (
@@ -28,7 +27,6 @@ const Labs = () => {
               incluía: búsqueda de paises, filtros combinados, ordenamientos e
               incorporacion de nueva información.
             </p>
-
             <div className={style.tech}>
               <strong>PRINCIPALES TECNOLOGIAS:</strong>
               <div className={style.icons}>
@@ -42,9 +40,9 @@ const Labs = () => {
             <div className={style.icEn}>
               <a
                 href="https://github.com/AndresPM98/PI-Countries-AndresPM"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
-                <img src={githube} alt="GH" height="40px" />
+                <img src={githube} alt="GH" height="40px"/>
               </a>
                 <p className={style.pEn}><strong>Back/Front</strong></p>
             </div>
@@ -84,7 +82,7 @@ const Labs = () => {
             <div className={style.icEn}>
               <a
                 href="https://github.com/AndresPM98/backend-pf"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <img src={githube} alt="GH" height="40px" />
               </a>
@@ -93,7 +91,7 @@ const Labs = () => {
             <div className={style.icEn}>
               <a
                 href="https://github.com/AndresPM98/FlexAgenda"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <img src={githube2} alt="GH" height="40px" />
               </a>
@@ -102,7 +100,7 @@ const Labs = () => {
             <div className={style.icEn}>
               <a
                 href="https://flex-agenda.vercel.app/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <img src={deploy2} alt="GH" height="40px" />
               </a>
@@ -145,7 +143,7 @@ const Labs = () => {
             <div className={style.icEn}>
               <a
                 href="https://github.com/AndresPM98/Back-Pato-ET"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <img src={githube} alt="GH" height="40px" />
               </a>
@@ -154,7 +152,7 @@ const Labs = () => {
             <div className={style.icEn}>
               <a
                 href="https://github.com/AndresPM98/PATO-FRONT"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <img src={githube2} alt="GH" height="40px" />
               </a>
@@ -163,7 +161,7 @@ const Labs = () => {
             <div className={style.icEn}>
               <a
                 href="https://patoestimulaciontemprana.com/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <img src={deploy2} alt="GH" height="40px" />
               </a>
