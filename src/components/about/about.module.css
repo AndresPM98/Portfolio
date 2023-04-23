@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1024px) {
 .recuadro {
   position: absolute;
   top: 47%;
@@ -106,7 +106,7 @@
 }
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1024px) {
   .recuadro {
     position: absolute;
     top: 50%;

@@ -88,7 +88,7 @@
   }
   
   .imgLand {
-    height: 37vh;
+    height: 21rem;
     margin-top: -15rem;
     margin-left: -3rem;
     border-bottom: 0.2rem solid #FFEFD6;
@@ -126,8 +126,6 @@
   .pLanding {
     display: none;
   }
-  
- 
   
   .imgLand {
     max-height: 37vh;

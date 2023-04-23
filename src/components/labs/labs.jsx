@@ -5,6 +5,12 @@ import style from "./labs.module.css";
 import Pf from "../../img/PF1.png";
 import Next from "../../img/gifProgramacion.gif";
 import Tech from "../tech/tech";
+import githube from "../../img/github.png";
+import githube2 from "../../img/github3.png";
+import deploy from "../../img/deploy.png"
+import deploy2 from "../../img/deploy2.png"
+import codigo from "../../img/codigo.png";
+import enlace from "../../img/enlace.png"
 
 const Labs = () => {
   return (
@@ -23,12 +29,25 @@ const Labs = () => {
               incorporacion de nueva información.
             </p>
 
-              <div className={style.tech}>
-                <strong>PRINCIPALES TECNOLOGIAS:</strong>
+            <div className={style.tech}>
+              <strong>PRINCIPALES TECNOLOGIAS:</strong>
               <div className={style.icons}>
                 <Tech />
               </div>
-              </div>
+            </div>
+            <div className={style.enlaces}>
+            <strong>ENLACES <img src={enlace} alt="GH" height="20px" /></strong>
+            </div>
+
+            <div className={style.icEn}>
+              <a
+                href="https://github.com/AndresPM98/PI-Countries-AndresPM"
+                target="_blank"
+              >
+                <img src={githube} alt="GH" height="40px" />
+              </a>
+                <p className={style.pEn}><strong>Back/Front</strong></p>
+            </div>
           </div>
         </div>
 
@@ -45,15 +64,51 @@ const Labs = () => {
               turnos, una agenda para gestionar las citas, inicio de sesión y
               registro de usuario, envío de correos electrónicos de confirmación
               y autenticación de terceros para mejorar la seguridad. Tecnologías
-              utilizadas:<strong> React, Redux, CSS, Bootstrap, librerías. Node Js,
-              Express. PostgreSQL, Firebase.</strong>
+              utilizadas:
+              <strong>
+                {" "}
+                React, Redux, CSS, Bootstrap, librerías. Node Js, Express.
+                PostgreSQL, Firebase.
+              </strong>
             </p>
             <div className={style.tech}>
-                <strong>PRINCIPALES TECNOLOGIAS:</strong>
+              <strong>PRINCIPALES TECNOLOGIAS:</strong>
               <div className={style.icons}>
                 <Tech />
               </div>
-              </div>
+            </div>
+            <div className={style.enlaces}>
+              <strong>ENLACES <img src={enlace} alt="GH" height="20px" /></strong>
+            </div>
+            <div className={style.iconoEn}>
+            <div className={style.icEn}>
+              <a
+                href="https://github.com/AndresPM98/backend-pf"
+                target="_blank"
+              >
+                <img src={githube} alt="GH" height="40px" />
+              </a>
+                <p className={style.pEn}><strong>Backend</strong></p>
+            </div>
+            <div className={style.icEn}>
+              <a
+                href="https://github.com/AndresPM98/FlexAgenda"
+                target="_blank"
+              >
+                <img src={githube2} alt="GH" height="40px" />
+              </a>
+                <p className={style.pEn}><strong>Frontend</strong></p>
+            </div>
+            <div className={style.icEn}>
+              <a
+                href="https://flex-agenda.vercel.app/"
+                target="_blank"
+              >
+                <img src={deploy2} alt="GH" height="40px" />
+              </a>
+                <p className={style.pEn}><strong>Deploy</strong></p>
+            </div>
+            </div>
           </div>
         </div>
 
@@ -78,11 +133,43 @@ const Labs = () => {
               través de Google Maps, entre otras.
             </p>
             <div className={style.tech}>
-                <strong>PRINCIPALES TECNOLOGIAS:</strong>
+              <strong>PRINCIPALES TECNOLOGIAS:</strong>
               <div className={style.icons}>
                 <Tech />
               </div>
-              </div>
+            </div>
+            <div className={style.enlaces}>
+            <strong>ENLACES <img src={enlace} alt="GH" height="20px" /></strong>
+            </div>
+            <div className={style.iconoEn}>
+            <div className={style.icEn}>
+              <a
+                href="https://github.com/AndresPM98/Back-Pato-ET"
+                target="_blank"
+              >
+                <img src={githube} alt="GH" height="40px" />
+              </a>
+                <p className={style.pEn}><strong>Backend</strong></p>
+            </div>
+            <div className={style.icEn}>
+              <a
+                href="https://github.com/AndresPM98/PATO-FRONT"
+                target="_blank"
+              >
+                <img src={githube2} alt="GH" height="40px" />
+              </a>
+                <p className={style.pEn}><strong>Frontend</strong></p>
+            </div>
+            <div className={style.icEn}>
+              <a
+                href="https://patoestimulaciontemprana.com/"
+                target="_blank"
+              >
+                <img src={deploy2} alt="GH" height="40px" />
+              </a>
+                <p className={style.pEn}><strong>Deploy</strong></p>
+            </div>
+            </div>
           </div>
         </div>
 
